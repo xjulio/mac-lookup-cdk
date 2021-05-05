@@ -21,7 +21,8 @@ def query(mac: str) -> str:
     if not macs:
         load_dump()
 
-    vendor = macs.get(mac.lower())
+    mac = mac.lower()
+    vendor = macs.get(mac)
     if not vendor:
         for x in range(-1, -10, -1):
             vendor = macs.get(mac[:x])

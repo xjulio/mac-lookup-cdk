@@ -4,6 +4,16 @@ This is demo project to demonstrate how to use AWS CDK to create a simple mac ad
 
 The `cdk.json` file tells the CDK Toolkit how to execute your app.
 
+## Prerequisites#
+To use this project, you’ll need the following:
+
+- AWS CLI
+- AWS Account and User
+- Node.js
+- AWS CDK Toolkit
+- Python
+
+## Usage
 The project need a Python virtualenv. To manually create a virtualenv on MacOS and Linux:
 
 ```
